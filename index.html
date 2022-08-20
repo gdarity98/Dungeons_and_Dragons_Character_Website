@@ -2,9 +2,69 @@
 <html>
     <head>
         <title></title>
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;700&
+        family=Bellefair&family=Barlow:wght@400;700&display=swap"
+         rel="stylesheet">
+
         <link rel="stylesheet" href="CSS/index.css">
+
     </head>
-    <body>
+    <body class="bg-dark text-white">
+
+        <div class="container">
+            <h1> Design System</h1>
+            <section id="colors">
+                <h2><span>01</span> colors</h2>
+                <div class="flex">
+                    <div style="flex-grow: 1;">
+                        <div class="bg-dark text-white" style="padding: 3rem 1rem 1rem; border: 1px solid white">
+                            #0B0D17
+                        </div>
+                        <p><span class="text-accent">RGB</span> 11, 13, 23</p>
+                        <p><span class="text-accent">HSL</span> 230°, 35%, 7%</p>
+                    </div>
+                    <div style="flex-grow: 1;">
+                        <div class="bg-accent text-dark" style="padding: 3rem 1rem 1rem; border: 1px solid white">
+                            #0B0D17
+                        </div>
+                        <p><span class="text-accent">RGB</span> 208, 214, 249</p>
+                        <p><span class="text-accent">HSL</span> 231°, 77%, 90%</p>
+                    </div>
+                    <div style="flex-grow: 1;">
+                        <div class="bg-white text-dark" style="padding: 3rem 1rem 1rem; border: 1px solid white">
+                            #FFFFFF
+                        </div>
+                        <p><span class="text-accent">RGB</span> 255, 255, 255</p>
+                        <p><span class="text-accent">HSL</span> 0°, 0%, 100%</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+    
         <script src="JS/index.pack.js"></script>
     </body>
 </html>
+
+<!--Random from Testing-->
+<!-- 
+    <div class="call-to-action container grid">
+        <div class="box">a</div>
+        <div class="box">b</div>
+        <div class="box">c</div>
+        <div class="box">d</div>
+    </div> 
+    <div class="bg-accent text-dark" style="padding: 1rem">
+        light blue bg, with dark text
+    </div>
+
+    <div class="bg-white text-dark" style="padding: 1rem">
+        white bg, with dark text
+    </div>
+
+    <div class="bg-accent text-white" style="padding: 1rem">
+        light blue bg with 20% alpha and white text. To get 20% alpha : var(--clr-light) / .2.
+    </div>
+-->
